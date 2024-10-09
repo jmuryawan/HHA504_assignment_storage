@@ -1,6 +1,6 @@
 # ignore the secret key
 gcp_key.json
-
+images
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
