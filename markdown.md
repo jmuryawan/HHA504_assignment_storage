@@ -31,7 +31,7 @@
 
      client = storage.Client()
 
-     bucket_name = 'jan-504-demo'  # Change this to your bucket name
+     bucket_name = 'jan-504-demo'  
     bucket = client.bucket(bucket_name)
 
     files_upload = []
