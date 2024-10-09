@@ -22,7 +22,36 @@
 
 
 ### **GCP**
-    this is code
+    from google.cloud import storage
+    from PIL import Image
+    import io
+    import os
+
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'gcp_key.json'
+
+     client = storage.Client()
+
+     bucket_name = 'jan-504-demo'  # Change this to your bucket name
+    bucket = client.bucket(bucket_name)
+
+    files_upload = []
+    for root, dirs, files in os.walk("images"):
+        for file in files:
+            files_upload.append(os.path.join(root,file))
+
+    for file in files_upload:
+        print(f"Working on {file}")
+
+        with open(file, 'rb') as f:
+            file_byte_array = f.read()
+        print(file)
+
+    try:
+        blob = bucket.blob(file)
+        blob.upload_from_string(file_byte_array, content_type='image/png')   
+        print("Image uploaded successfully to Google Cloud Storage!")
+    except Exception as e:
+        print(f"Error: {e}")
 
 ## 3 - Notes on storage management and security features in Azure and GCP
 ### **Azure**
