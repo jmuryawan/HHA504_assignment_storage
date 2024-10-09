@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 # ignore the secret key
 gcp_key.json
 
+=======
+# ignore the gcp secret key
+gcp_key.json
+
+# ignore the azure secret key
+connection_string
+
+
+>>>>>>> d50b5bf (Initial commit)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

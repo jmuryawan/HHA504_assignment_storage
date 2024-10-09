@@ -1,5 +1,6 @@
 ## 1 - Screenshots of the file upload process in Azure Blob Storage and GCP Cloud Storage using the GUI
 ### **Azure**
+<<<<<<< HEAD
 ### Create a new Storage Account
 <img width="1470" alt="Screenshot 2024-10-09 at 14 14 19" src="https://github.com/user-attachments/assets/48383007-ea89-41e2-92d9-bad8be9d4745">
 
@@ -11,6 +12,10 @@
 
 ### View your images!
 <img width="1186" alt="Screenshot 2024-10-09 at 14 18 33" src="https://github.com/user-attachments/assets/e933e607-f003-4c60-9aaf-5564c7ceed04">
+=======
+
+
+>>>>>>> d50b5bf (Initial commit)
 
 ### **GCP**
 ### Navigate to Cloud Storage>Buckets
@@ -27,6 +32,7 @@
 
 ## 2 - Python code for uploading files to Azure Blob Storage and GCP Cloud Storage
 ### **Azure**
+<<<<<<< HEAD
     import os
     from azure.storage.blob import BlobServiceClient
 
@@ -96,10 +102,20 @@
     except Exception as e:
         print(f"Error: {e}")
 
+=======
+    this is code
+
+
+### **GCP**
+    this is code
+>>>>>>> d50b5bf (Initial commit)
 
 ## 3 - Notes on storage management and security features in Azure and GCP
 ### **Azure**
 
 
 ### **GCP**
+<<<<<<< HEAD
 To manage and secure data in Google Cloud Storage (GCS), utilize IAM for access control through roles and service accounts, and consider ACLs for granular permissions. Implement server-side encryption for data at rest, and use lifecycle rules to optimize storage costs by automatically transitioning or deleting objects. Monitor access with Cloud Audit Logs and employ VPC Service Controls for network security. Additionally, enable versioning and retention policies to safeguard data against accidental deletions, and regularly review permissions to adhere to the principle of least privilege. Combining these strategies ensures a secure and efficient data management approach in GCS.
+=======
+>>>>>>> d50b5bf (Initial commit)

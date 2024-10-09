@@ -10,7 +10,11 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'gcp_key.json'
 client = storage.Client()
 
 # Step 3: Create a bucket or use an existing one
+<<<<<<< HEAD
 bucket_name = 'jan-504-demo'  # Change this to your bucket name
+=======
+bucket_name = 'jan-504-demo'  
+>>>>>>> d50b5bf (Initial commit)
 bucket = client.bucket(bucket_name)
 
 files_upload = []
