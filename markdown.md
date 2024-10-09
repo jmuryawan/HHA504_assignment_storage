@@ -1,7 +1,16 @@
 ## 1 - Screenshots of the file upload process in Azure Blob Storage and GCP Cloud Storage using the GUI
 ### **Azure**
+### Create a new Storage Account
+<img width="1470" alt="Screenshot 2024-10-09 at 14 14 19" src="https://github.com/user-attachments/assets/48383007-ea89-41e2-92d9-bad8be9d4745">
 
+### Find the Upload button and create a new container
+<img width="586" alt="Screenshot 2024-10-09 at 14 15 31" src="https://github.com/user-attachments/assets/a4986696-28b8-43b4-9343-8e0b88d5e8e5">
 
+### Navigate to the Containers tab and click on the one you just created
+<img width="1470" alt="Screenshot 2024-10-09 at 14 18 24" src="https://github.com/user-attachments/assets/a53453ba-7f7e-4c96-ae74-c3cd9d994b45">
+
+### View your images!
+<img width="1186" alt="Screenshot 2024-10-09 at 14 18 33" src="https://github.com/user-attachments/assets/e933e607-f003-4c60-9aaf-5564c7ceed04">
 
 ### **GCP**
 ### Navigate to Cloud Storage>Buckets
