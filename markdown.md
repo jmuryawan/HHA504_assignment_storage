@@ -1,6 +1,5 @@
 ## 1 - Screenshots of the file upload process in Azure Blob Storage and GCP Cloud Storage using the GUI
 ### **Azure**
-<<<<<<< HEAD
 ### Create a new Storage Account
 <img width="1470" alt="Screenshot 2024-10-09 at 14 14 19" src="https://github.com/user-attachments/assets/48383007-ea89-41e2-92d9-bad8be9d4745">
 
@@ -12,19 +11,14 @@
 
 ### View your images!
 <img width="1186" alt="Screenshot 2024-10-09 at 14 18 33" src="https://github.com/user-attachments/assets/e933e607-f003-4c60-9aaf-5564c7ceed04">
-=======
 
-
->>>>>>> d50b5bf (Initial commit)
 
 ### **GCP**
 ### Navigate to Cloud Storage>Buckets
 <img width="1470" alt="Screenshot 2024-10-09 at 10 31 34" src="https://github.com/user-attachments/assets/cd03d6ad-97ac-478f-ac02-5df655f9cb67">
 
- 
 ### In the Objects tab, click the Upload Files button
 <img width="641" alt="Screenshot 2024-10-09 at 10 32 29" src="https://github.com/user-attachments/assets/460ba806-2acc-4ff0-a29e-da2034822296">
-
 
 ### Your images are uploaded! Click on them for more details
 <img width="1202" alt="Screenshot 2024-10-09 at 10 33 12" src="https://github.com/user-attachments/assets/bf15df28-f669-4505-9d3d-8a1b14710861">
@@ -32,7 +26,6 @@
 
 ## 2 - Python code for uploading files to Azure Blob Storage and GCP Cloud Storage
 ### **Azure**
-<<<<<<< HEAD
     import os
     from azure.storage.blob import BlobServiceClient
 
@@ -66,6 +59,8 @@
     # Upload images
     upload_files_from_folder(local_folder)
 
+### Added images with Python
+<img width="1192" alt="Screenshot 2024-10-09 at 15 30 40" src="https://github.com/user-attachments/assets/5e08d1b7-2cb7-4d25-a720-807784d98a32">
 
 ### **GCP**
     from google.cloud import storage
@@ -102,20 +97,13 @@
     except Exception as e:
         print(f"Error: {e}")
 
-=======
-    this is code
+### Added images with Python
+<img width="1150" alt="Screenshot 2024-10-09 at 15 32 26" src="https://github.com/user-attachments/assets/5301c6ab-4070-4c0c-8c45-12ab339d66e2">
 
-
-### **GCP**
-    this is code
->>>>>>> d50b5bf (Initial commit)
 
 ## 3 - Notes on storage management and security features in Azure and GCP
 ### **Azure**
-
+Managing and securing data in Azure Blob Storage involves using Azure Role-Based Access Control (RBAC) for permissions, Shared Access Signatures (SAS) for granular access, and various data encryption methods for security. You can choose from different storage tiers (Hot, Cool, Archive) based on access frequency and implement lifecycle management rules to optimize costs. Network security can be enhanced with Virtual Network service endpoints, firewalls, and Private Link. Additionally, auditing and monitoring tools help track access and usage, while redundancy options ensure data durability. Features like immutable blob storage and versioning support compliance and data recovery.
 
 ### **GCP**
-<<<<<<< HEAD
-To manage and secure data in Google Cloud Storage (GCS), utilize IAM for access control through roles and service accounts, and consider ACLs for granular permissions. Implement server-side encryption for data at rest, and use lifecycle rules to optimize storage costs by automatically transitioning or deleting objects. Monitor access with Cloud Audit Logs and employ VPC Service Controls for network security. Additionally, enable versioning and retention policies to safeguard data against accidental deletions, and regularly review permissions to adhere to the principle of least privilege. Combining these strategies ensures a secure and efficient data management approach in GCS.
-=======
->>>>>>> d50b5bf (Initial commit)
+To manage and secure data in Google Cloud Storage (GCS), utilize IAM for access control through roles and service accounts, and consider ACLs for granular permissions. Implement server-side encryption for data at rest, and use lifecycle rules to optimize storage costs by automatically transitioning or deleting objects. Monitor access with Cloud Audit Logs and employ VPC Service Controls for network security. Additionally, enable versioning and retention policies to safeguard data against accidental deletions, and regularly review permissions.
